@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+#message {
+  display: flex;
+  align-items: flex-start;
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+  margin-top: 10px;
+  color: black;
+  justify-content: center;
+}
+
+#restart {
+  width: 60px;
+  height: 30px;
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  margin: 10px 0 10px 2rem;
+  background-color: rgb(255, 128, 82);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 5px;
+}
