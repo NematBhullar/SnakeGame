@@ -11,7 +11,7 @@ var gameOver = false;
 // Snake
 var snakeX = blockSize * 5;   // Head
 var snakeY = blockSize * 5;   // Head
-var snakeBody = [];           // Body 
+var snakeBody = [];           // Body - every time it eats food, the length gets pushed to the front of the list
 var speed = 75;               // Speed
 
 var movementX = 0;
